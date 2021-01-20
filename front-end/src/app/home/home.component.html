@@ -1,0 +1,14 @@
+<button class="btn btn-primary" (click)="loadTable()">Gauti lentelę</button>
+
+<table class="table">
+  <thead>
+    <ng-container *ngFor="let header of headers">
+      <th style="text-align: center;">{{header}}</th>
+    </ng-container>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sdo of studData">    
+      <td *ngFor="let h of headers">{{ sdo[h] }}</td>
+    </tr>
+  </tbody> 
+</table>
