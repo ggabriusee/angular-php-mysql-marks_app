@@ -18,8 +18,8 @@ mysql (naudojau 14.14)
 2.3. Startuoti front-end ( ng serve )
 
 Paleidimo Dependencies:
-Node Package Manager (npm) (naudojau 6.14.6),
 
+Node Package Manager (npm) (naudojau 6.14.6),
 Angular CLI (naudojau 6.2.3, Node: 9.11.2)
 
 ﻿Paleisti back-end:
@@ -31,10 +31,9 @@ Angular CLI (naudojau 6.2.3, Node: 9.11.2)
 3. Startuoti serverį ( php -S 127.0.0.1:8080 -t public )
 
 Paleidimo Dependencies:
+
 PHP (naudojau 7.1),
-
 Symfony CLI (naudojau v4.21.6),
-
 Composer (naudojau 2.0.8)
 
 
