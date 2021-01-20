@@ -2,20 +2,20 @@
 
 Instrukcijos paleisti sistemą:
 
-1. Paleisti duombazę (reikalingos mysql administratoriaus privilegijos):
+Paleisti duombazę (reikalingos mysql administratoriaus privilegijos):
 
-1.1. Sukurti duombazę ir vartotoją, įkelti duomenis (mysql -u root -p < marks.sql)
+1. Sukurti duombazę ir vartotoją, įkelti duomenis (mysql -u root -p < marks.sql)
 
 Paleidimo Dependencies:
 mysql (naudojau 14.14)
 
-2. Paleisti front-end:
+Paleisti front-end:
 
-2.1. Nueiti į front-end direktoriją ( cd front-end ).
+1. Nueiti į front-end direktoriją ( cd front-end ).
 
-2.2. Atsisiųsti projekto dependencies ( npm install )
+2. Atsisiųsti projekto dependencies ( npm install )
 
-2.3. Startuoti front-end ( ng serve )
+3. Startuoti front-end ( ng serve )
 
 Paleidimo Dependencies:
 
